@@ -16,17 +16,25 @@ body {
 /* all headers */
 
 header {
+  
   display: flex;
-  background-color: #1e2022;
+  /* background-color: #1e2022; */
   height: 50px;
   color: #f0f5f9;
   align-items: center;
   justify-content: space-between;
   position: sticky;
   top: 0;
+  background-image: url("../img/background2.jpg");
+  }
+
+.logo_header_footer{
+  /* width: 10vw; */
+  height: 5vh;
 }
 
 .logo {
+  
   margin-left: 20px;
   color: #f0f5f9;
   font-size: x-large;
@@ -49,7 +57,10 @@ header {
   flex-direction: column;
   height: calc(80vh - 58px);
   max-height: calc(58vw + 64px);
-  background-color: #c9d6df;
+  background-image: url("../img/Background3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: #c9d6df; */
   align-items: center;
   justify-content: center;
 }
@@ -66,8 +77,8 @@ header {
 
 .sec1>button {
   width: 200px;
-  height: 50px;
-  background-color: #52616b;
+  height: 50px;  
+  /* background-color: #52616b; */
   margin-top: 50px;
   font-size: 25px;
 }
@@ -79,6 +90,7 @@ header {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
   height: 400px;
+  background-color: rgba(165, 97, 42, 0.849);
 }
 
 .sec2>.item {
@@ -118,7 +130,10 @@ header {
 
 .sec3 {
   display: flex;
-  background-color: #c9d6df;
+  /* background-color: #c9d6df; */
+  background-image: url("../img/Background3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 300px;
   align-items: center;
   justify-content: center;
@@ -135,8 +150,7 @@ header {
 
 .sec4>.item {
   display: flex;
-  height: 200px;
-  margin: ;
+  height: 200px;  
 }
 
 .sec4>.item>i>a>img {
@@ -153,6 +167,7 @@ header {
   align-items: center;
   justify-content: center;
   margin: 40px;
+  
 }
 
 /* footer*/
@@ -160,10 +175,11 @@ header {
 footer {
   display: flex;
   background-color: #1e2022;
-  height: 50px;
+  height: 75px;
   color: #f0f5f9;
   align-items: center;
   justify-content: space-between;
+  background-image: url("../img/background2.jpg");
 }
 
 footer>h4 {
