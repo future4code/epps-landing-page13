@@ -150,7 +150,9 @@ header {
 
 .sec4>.item {
   display: flex;
-  height: 200px;  
+
+  height: 200px;
+
 }
 
 .sec4>.item>i>a>img {
@@ -193,4 +195,18 @@ footer>ul {
 
 footer>ul>li>a {
   padding: 20px;
+}
+
+  /* Responsividade */
+
+@media screen and (min-device-width: 0px) and (max-device-width: 420px) {
+  
+  header{
+    height: 50px;
+    width: 100vw;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+  }
+
 }
