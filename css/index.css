@@ -90,7 +90,7 @@ header {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
   height: 400px;
-  background-color: rgba(165, 97, 42, 0.849);
+  background-color: #c23949;
 }
 
 .sec2>.item {
@@ -195,6 +195,10 @@ footer>ul {
 
 footer>ul>li>a {
   padding: 20px;
+}
+
+img{
+  height: 5vh;
 }
 
   /* Responsividade */
