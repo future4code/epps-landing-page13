@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background-color: #f0f5f9;
+  background-image: url("../img/Background3.jpg");
 }
 
 /* all headers */
@@ -24,6 +24,12 @@ header {
   justify-content: space-between;
   position: sticky;
   top: 0;
+  background-image: url("../img/background2.jpg");
+}
+
+.logo_header_footer{
+  /* width: 10vw; */
+  height: 5vh;
 }
 
 .logo {
@@ -49,7 +55,7 @@ header {
   height: calc(40vh - 50px);
   align-items: center;
   justify-content: center;
-  background-color: #c9d6df;
+  background-color: #c23949;
 }
 
 .sec1>h1 {
@@ -67,6 +73,7 @@ header {
   height: 100vh;
   background-color: white;
   padding-top: 20px;
+  
 }
 
 .sec2>.team{
@@ -105,6 +112,7 @@ footer {
   color: #f0f5f9;
   align-items: center;
   justify-content: space-between;
+  background-image: url("../img/background2.jpg");
 }
 
 footer>h4 {
@@ -119,3 +127,8 @@ footer>ul {
 footer>ul>li>a {
   padding: 20px;
 }
+
+img{
+  height: 5vh;
+}
+

@@ -24,6 +24,12 @@ header {
   justify-content: space-between;
   position: sticky;
   top: 0;
+  background-image: url("../img/background2.jpg");
+}
+
+.logo_header_footer{
+  /* width: 10vw; */
+  height: 5vh;
 }
 
 .logo {
@@ -49,7 +55,7 @@ header {
   height: calc(40vh - 50px);
   align-items: center;
   justify-content: center;
-  background-color: #c9d6df;
+  background-color: #c23949;
 }
 
 .sec1>h1 {
@@ -60,7 +66,7 @@ header {
 
 .sec2 {
   display: flex;
-  background-color: white;
+  background-image: url("../img/Background3.jpg");
   height: calc(60vh - 50px);
   justify-content: center;
 }
@@ -82,6 +88,7 @@ footer {
   color: #f0f5f9;
   align-items: center;
   justify-content: space-between;
+  background-image: url("../img/background2.jpg");
 }
 
 footer>h4 {
@@ -91,8 +98,14 @@ footer>h4 {
 footer>ul {
   display: flex;
   margin: 10px;
+  
 }
 
 footer>ul>li>a {
   padding: 20px;
+  
+}
+
+img{
+  height: 5vh;
 }
