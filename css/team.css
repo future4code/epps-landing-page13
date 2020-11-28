@@ -153,11 +153,6 @@ img{
   }
 
   footer {
-    background-color: #1e2022;
     height: 60px;
-    color: #f0f5f9;
-    align-items: center;
-    justify-content: space-between;
-    background-image: url("../img/background2.jpg");
   }
 }

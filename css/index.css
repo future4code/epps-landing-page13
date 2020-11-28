@@ -208,9 +208,6 @@ img{
   header{
     height: 50px;
     width: 100vw;
-    color: white;
-    align-items: center;
-    justify-content: space-between;
   }
   
   .sec1>img {
