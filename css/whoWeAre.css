@@ -109,3 +109,32 @@ footer>ul>li>a {
 img{
   height: 5vh;
 }
+
+/* Responsividade */
+
+@media screen and (min-device-width: 0px) and (max-device-width: 420px) {
+  .sec1 {
+    height: calc(28vh - 50px);
+  }
+  
+  .sec1>h1 {
+    font-size: 52px;
+    margin: 0px 30px;
+  }
+
+  .sec2 {
+    height: calc(100vh - 50px);
+  }
+
+  .sec2>h3 {
+    text-align: start;
+    font-size: 30px;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  
+  footer {
+    height: 60px;
+  }
+
+}

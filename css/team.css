@@ -132,3 +132,32 @@ img{
   height: 5vh;
 }
 
+  /* Responsividade */
+
+@media screen and (min-device-width: 0px) and (max-device-width: 420px) {
+  .sec1 {
+    height: calc(20vh - 50px);
+  }
+  
+  .sec1>h1 {
+    font-size: 50px;
+  }
+
+  .sec2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin: 30px auto;
+    width: 50vw;
+    height: 156vh;
+    padding-top: 0px;    
+  }
+
+  footer {
+    background-color: #1e2022;
+    height: 60px;
+    color: #f0f5f9;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("../img/background2.jpg");
+  }
+}
