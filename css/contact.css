@@ -119,3 +119,43 @@ footer>ul>li>a {
 img{
   height: 5vh;
 }
+
+  /* Responsividade */
+
+@media screen and (min-device-width: 0px) and (max-device-width: 420px) {
+    .sec1 {
+      height: calc(25vh - 50px);
+    }
+    
+    .sec1>h1 {
+      font-size: 52px;
+    }
+
+    .sec2 {
+      margin: 40px auto;
+      width: 66vw;
+      height: 35vh;
+      background-color: white;
+      padding-top: 10px;
+      align-items: center;
+    }
+    
+    .sec2>form{
+      align-items: flex-start;
+    }
+    
+    .sec2>ul>li{
+      font-size: 20px;
+      margin: 10px;
+    }
+    
+    .sec2>form>i>input{
+      margin: 12px 0px;
+    }
+    
+    footer {
+      position: fixed;
+      bottom: 0;
+    }
+
+  }
